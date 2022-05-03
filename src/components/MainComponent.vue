@@ -1,8 +1,9 @@
 <template>
-    <div class="container">
-    <h3>--> content here</h3>
-
-    </div>
+    <main>
+        <div class="container">
+            <h3>--> content here</h3>
+        </div>
+    </main>
 </template>
 
 <script>
@@ -12,12 +13,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .container {
+
+    main {
         background-color: black;
-        padding: 2rem 0;
-        
-        h3 {
-            color: white;
+
+        .container {
+            padding: 2rem 0;
+            
+            h3 {
+                color: white;
+            }
         }
     }
 

@@ -2,6 +2,7 @@
   <div id="app">
     <SiteHeader/>
     <SiteMain/>
+    <SiteSection/>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
@@ -10,12 +11,14 @@
 /* import HelloWorld from './components/HelloWorld.vue' */
 import SiteHeader from '@/components/HeaderComponent.vue'
 import SiteMain from '@/components/MainComponent.vue'
+import SiteSection from '@/components/SectionComponent.vue'
 
 export default {
   name: 'App',
   components: {
     SiteHeader,
     SiteMain,
+    SiteSection,
   }
 }
 </script>
