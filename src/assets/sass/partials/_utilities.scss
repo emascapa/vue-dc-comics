@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $text_dark;
+}
+
+/* utilities */
+
+.container {
+    margin: auto;
+    max-width: 1440px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ /*    margin-left: -1rem;
+    margin-right: -1rem; */
+}
+
+.col {
+    flex-grow: 1;
+}
+
+/* .col-3 {
+    width: calc(100% / 12) * 3;
+} */
+
+.d_flex {
+    display: flex;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
