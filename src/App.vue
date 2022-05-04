@@ -1,36 +1,38 @@
 <template>
   <div id="app">
-    <SiteHeader/>
-    <SiteMain/>
-    <SiteSection/>
-    <SiteUpperFooter/>
-    <SiteLowerFooter/>
+    <SiteHeader />
+    <SiteMain />
+    <SiteSection />
+    <SiteFooter />
+    <!--    <SiteUpperFooter/>
+    <SiteLowerFooter/> -->
   </div>
 </template>
 
 <script>
 /* import HelloWorld from './components/HelloWorld.vue' */
-import SiteHeader from '@/components/HeaderComponent.vue'
-import SiteMain from '@/components/MainComponent.vue'
-import SiteSection from '@/components/SectionComponent.vue'
-import SiteUpperFooter from '@/components/UpperFooterComponent.vue'
-import SiteLowerFooter from '@/components/LowerFooterComponent.vue'
+import SiteHeader from "@/components/HeaderComponent.vue";
+import SiteMain from "@/components/MainComponent.vue";
+import SiteSection from "@/components/SectionComponent.vue";
+import SiteFooter from "@/components/FooterComponent.vue";
+//import SiteUpperFooter from '@/components/UpperFooterComponent.vue'
+//import SiteLowerFooter from '@/components/LowerFooterComponent.vue'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     SiteHeader,
     SiteMain,
     SiteSection,
-    SiteUpperFooter,
-    SiteLowerFooter,
-  }
-}
+    SiteFooter,
+    //SiteUpperFooter,
+    //SiteLowerFooter,
+  },
+};
 </script>
 
 <style lang="scss">
-
-@import '@/assets/sass/style.scss';
+@import "@/assets/sass/style.scss";
 
 /* #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

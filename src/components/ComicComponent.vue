@@ -12,13 +12,12 @@ export default {
   name: "ComicComponent",
   props: {
     img_src: String,
-    label: String
-  }
+    label: String,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-
 .col_2 {
   color: $light_theme;
   padding: 0.5rem;

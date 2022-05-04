@@ -2,7 +2,9 @@
   <main>
     <div class="jumbotron"></div>
     <div class="container">
-      <span class="btn btn_primary text_uppercase upper_title">current series</span>
+      <span class="btn btn_primary text_uppercase upper_title"
+        >current series</span
+      >
       <div class="row">
         <!--    <div v-for="(item, index) in comics" :key="index" class="col_2">
                 <div class="img_div">
@@ -10,7 +12,12 @@
                 </div>
                 <h6 class="text_uppercase">{{item.series}}</h6>
         </div> -->
-        <SiteComic v-for="(item, index) in comics" :key="index" :img_src="item.thumb" :label="item.series"/>
+        <SiteComic
+          v-for="(item, index) in comics"
+          :key="index"
+          :img_src="item.thumb"
+          :label="item.series"
+        />
       </div>
       <div class="row2">
         <span class="btn btn_primary text_uppercase">load more</span>
@@ -20,11 +27,11 @@
 </template>
 
 <script>
-import SiteComic from '@/components/ComicComponent.vue'
+import SiteComic from "@/components/ComicComponent.vue";
 
 export default {
   name: "MainComponent",
-    components: {
+  components: {
     SiteComic,
   },
   data: function () {
@@ -126,7 +133,7 @@ main {
 
   .jumbotron {
     height: 350px;
-    background-image: url('@/assets/img/jumbotron.jpg');
+    background-image: url("@/assets/img/jumbotron.jpg");
     background-repeat: no-repeat;
   }
 
@@ -142,10 +149,10 @@ main {
     }
 
     .row {
-        //row-gap: 0.5rem;
-        //column-gap: 0.5rem;
-        margin-bottom: 2rem;
-/*         .col_2 {
+      //row-gap: 0.5rem;
+      //column-gap: 0.5rem;
+      margin-bottom: 2rem;
+      /*         .col_2 {
             color: $light_theme;
             padding: 0.5rem;
 
@@ -165,7 +172,7 @@ main {
       display: flex;
       justify-content: center;
       .btn {
-            font-size: 0.7rem;
+        font-size: 0.7rem;
       }
     }
   }
