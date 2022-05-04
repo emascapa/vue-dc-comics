@@ -2,6 +2,7 @@
   <main>
     <div class="jumbotron"></div>
     <div class="container">
+      <span class="btn btn_primary text_uppercase upper_title">current series</span>
       <div class="row">
         <!--    <div v-for="(item, index) in comics" :key="index" class="col_2">
                 <div class="img_div">
@@ -12,7 +13,7 @@
         <SiteComic v-for="(item, index) in comics" :key="index" :img_src="item.thumb" :label="item.series"/>
       </div>
       <div class="row2">
-        <span class="btn btn_primary text_uppercase text_center">load more</span>
+        <span class="btn btn_primary text_uppercase">load more</span>
       </div>
     </div>
   </main>
@@ -131,6 +132,14 @@ main {
 
   .container {
     padding: 2.5rem 0;
+    position: relative;
+
+    .upper_title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(0, -50%);
+    }
 
     .row {
         //row-gap: 0.5rem;
