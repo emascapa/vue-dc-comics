@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/sass/variables.scss';
+//@import '@/assets/sass/variables.scss';
 
     footer {
         background-image: url(@/assets/img/footer-bg.jpg);
@@ -98,12 +98,18 @@ export default {
                     margin-bottom: 0.6rem;
                     h3 {
                         margin-bottom: 0.5rem;
+                        cursor: pointer;
                     }
                     ul {
                         list-style: none;
                         li {
                             color: $secondary_font;
                             font-size: 0.8rem;
+                            cursor: pointer;
+
+                            &:hover {
+                                text-decoration: underline;
+                            }
                         }
                     }
                 }

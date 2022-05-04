@@ -4,6 +4,7 @@
     <SiteMain/>
     <SiteSection/>
     <SiteUpperFooter/>
+    <SiteLowerFooter/>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
@@ -14,6 +15,7 @@ import SiteHeader from '@/components/HeaderComponent.vue'
 import SiteMain from '@/components/MainComponent.vue'
 import SiteSection from '@/components/SectionComponent.vue'
 import SiteUpperFooter from '@/components/UpperFooterComponent.vue'
+import SiteLowerFooter from '@/components/LowerFooterComponent.vue'
 
 export default {
   name: 'App',
@@ -22,6 +24,7 @@ export default {
     SiteMain,
     SiteSection,
     SiteUpperFooter,
+    SiteLowerFooter,
   }
 }
 </script>

@@ -28,7 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/sass/variables.scss';
+//@import '@/assets/sass/variables.scss';
 
     header {
         background-color: $light_theme;
@@ -63,6 +63,11 @@ export default {
                     cursor: pointer;
 
                     &.active{
+                        color: $primary_theme;
+                        border-color: $primary_theme;
+                    }
+
+                    &:hover {
                         color: $primary_theme;
                         border-color: $primary_theme;
                     }
