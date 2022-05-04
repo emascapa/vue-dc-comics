@@ -16,6 +16,7 @@
           v-for="(item, index) in comics"
           :key="index"
           :img_src="item.thumb"
+          :price="item.price"
           :label="item.series"
         />
       </div>
@@ -135,6 +136,7 @@ main {
     height: 350px;
     background-image: url("@/assets/img/jumbotron.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .container {

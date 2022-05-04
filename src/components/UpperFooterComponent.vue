@@ -100,6 +100,7 @@ section {
         ul {
           list-style: none;
           li {
+            line-height: 1.2rem;
             color: $secondary_font;
             font-size: 0.8rem;
             cursor: pointer;

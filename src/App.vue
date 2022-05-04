@@ -4,8 +4,6 @@
     <SiteMain />
     <SiteSection />
     <SiteFooter />
-    <!--    <SiteUpperFooter/>
-    <SiteLowerFooter/> -->
   </div>
 </template>
 
@@ -15,8 +13,7 @@ import SiteHeader from "@/components/HeaderComponent.vue";
 import SiteMain from "@/components/MainComponent.vue";
 import SiteSection from "@/components/SectionComponent.vue";
 import SiteFooter from "@/components/FooterComponent.vue";
-//import SiteUpperFooter from '@/components/UpperFooterComponent.vue'
-//import SiteLowerFooter from '@/components/LowerFooterComponent.vue'
+
 
 export default {
   name: "App",
